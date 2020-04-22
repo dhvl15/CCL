@@ -6,7 +6,8 @@
  
   //Start the Session
 session_start();
-$link = mysqli_connect("localhost", "root", "", "wd");	
+//$link = mysqli_connect("localhost", "root", "", "wd");	
+$link = mysqli_connect("us-cdbr-iron-east-01.cleardb.net", "bfa2a557a3ad14", "69ba10e2", "heroku_a5da83056c5ca5c");	
 if (isset($_POST['email']) )
 {
 
